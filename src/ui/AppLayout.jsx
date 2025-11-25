@@ -1,10 +1,10 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigation } from "react-router-dom";
 import CartOverview from "../features/cart/CartOverview";
 import Header from "./Header";
 
 function AppLayout() {
   return (
-    <div>
+    <div className="layout">
       <Header />
       <main>
         <h1>Content</h1>
