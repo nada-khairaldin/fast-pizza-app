@@ -11,7 +11,8 @@ function AppLayout() {
 
   return (
     <div className="layout">
-      {isLoading && <Loader />} {/*plus the original content if it is loading , we will show the loader */}
+      {isLoading && <Loader />}{" "}
+      {/*plus the original content if it is loading , we will show the loader */}
       <Header />
       <main>
         <h1>Content</h1>
