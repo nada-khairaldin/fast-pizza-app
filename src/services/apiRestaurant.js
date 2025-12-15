@@ -1,6 +1,6 @@
 // we have centralize the logic of api in one place
 
-const API_URL = "https://react-ffffast-pizza-api.jonas.io/api";
+const API_URL = "https://react-fast-pizza-api.jonas.io/api";
 
 export async function getMenu() {
   const res = await fetch(`${API_URL}/menu`);
